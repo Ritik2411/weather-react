@@ -1,0 +1,25 @@
+.weather{
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+}
+
+.text{
+    font-size: 40px;
+}
+
+.padd{
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+@media only screen and (max-width: 400px) {
+    .text{
+        font-size: 30px;
+    }
+
+    .padd{
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+}
